@@ -8,8 +8,8 @@ public class PartidaTester {
 			Time timeLocal = new Time(); 
 			Time timeVisitante = new Time();
 		
-			System.out.println("Iniciando as partidas da rodada do Brasileirão.");
-			System.out.println("Vai começar a partida número"+i+"\n");
+			System.out.println("Iniciando as partidas da rodada do BrasileirÃ£o.");
+			System.out.println("Vai comeÃ§ar a partida nÃºmero"+i+"\n");
 		
 			System.out.println("Entre com o Time Local:");
 			String time1 = var.nextLine();   
@@ -19,7 +19,7 @@ public class PartidaTester {
 			String time2 = var.nextLine();
 			timeVisitante.setNomeTime(time2);
 		
-			System.out.print("Preparando o jogo número"+i+"\n");
+			System.out.print("Preparando o jogo nÃºmero"+i+"\n");
 			timeLocal.listar();
 			System.out.println("\n");
 			timeVisitante.listar();
@@ -44,8 +44,8 @@ public class PartidaTester {
 		System.out.println("***********************************");
 		System.out.println("Integrantes do Grupo: Jader Virtuoso de Assis.");
 		System.out.println("***********************************");
-		System.out.println("GitHub>>>  ");
+		System.out.println("GitHub>>> https://github.com/JaderVirtuoso/POO.git ");
 		System.out.println("***********************************");
-		System.out.println("Vídeo YouTube>>>  ");
+		System.out.println("VÃ­deo YouTube>>> https://youtu.be/zPbEZb8mamo ");
 		}
 }
